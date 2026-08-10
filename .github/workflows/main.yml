@@ -74,3 +74,9 @@ jobs:
 
       - name: run tests
         run: pytest -v
+
+      - name: Create test summary
+        uses: test-summary/action@v1
+        with:
+          paths: pytest.xml
+        if: always()

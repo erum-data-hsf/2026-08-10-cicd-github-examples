@@ -19,7 +19,7 @@ ROOT.gROOT.SetBatch(True)
 # the lower edge and the upper edge of the histogram.
 default_nbins = 30
 ranges = {
-    "pt_1": (default_nbins, 17, 70),
+    "pt_1": (default_nbins, 71, 70),
     "pt_2": (default_nbins, 20, 70),
     "eta_1": (default_nbins, -2.1, 2.1),
     "eta_2": (default_nbins, -2.3, 2.3),
